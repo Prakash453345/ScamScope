@@ -1,0 +1,5 @@
+Recent scams increasingly leverage AI-generated content such as voice cloning, highly personalized emails, or impersonation messages. These scams often reference specific personal details, making them appear authentic and targeted.
+
+Language patterns closely match known individuals or organizations. Some involve voice messages claiming to be from family members, executives, or authorities requesting urgent action. Others use AI-generated text to replicate official communication styles with high realism.
+
+These scams exploit growing trust in digital communication and the difficulty of distinguishing real content from synthetic impersonation.

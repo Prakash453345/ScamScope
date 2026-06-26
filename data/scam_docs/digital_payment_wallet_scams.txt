@@ -1,0 +1,5 @@
+These scams target users of digital wallets, UPI systems, and peer-to-peer payment platforms. The pattern often involves claims related to refunds, failed transfers, payment reversals, or account upgrades.
+
+Language references transaction IDs, payment requests, verification steps, or system errors. Victims may be instructed to approve requests, scan QR codes, or share details, with these actions misrepresented as necessary to receive money rather than send it.
+
+The core manipulation exploits confusion about how digital payment systems function, particularly the difference between receiving and authorizing payments.

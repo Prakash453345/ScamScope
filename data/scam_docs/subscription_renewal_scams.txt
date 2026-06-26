@@ -1,0 +1,5 @@
+These scams impersonate legitimate services by claiming subscriptions or accounts are about to expire or require renewal. Messages often reference services the recipient may plausibly use, creating uncertainty and doubt.
+
+Language includes expiry notices, continuation steps, payment update requests, or account reactivation procedures. Urgency is framed calmly through timelines such as “expires within 24 hours” or “avoid service interruption.”
+
+Tactics include mimicking branding, sender details, and communication styles of real platforms. Payment requests are positioned as renewal charges or verification of payment methods. Some messages claim failed transactions that require immediate resolution.

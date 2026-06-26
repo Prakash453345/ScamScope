@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScamScope - AI Risk Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="background-effect"></div>
+    
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="hero-section">
+            <div class="hero-badge">Next-Gen Risk Intelligence</div>
+            <h1>ScamScope <span class="accent">AI</span></h1>
+            <p>Analyze messages for sophisticated behavioral scam patterns using RAG and Groq's high-speed Llama-3 inference.</p>
+            
+            <div class="input-container">
+                <textarea id="message-input" placeholder="Paste an email, SMS, or direct message here for instant threat analysis..."></textarea>
+                <div class="input-actions">
+                    <button id="analyze-btn" class="primary-btn">
+                        <span class="btn-text">Run Threat Analysis</span>
+                        <div class="loader-spinner hidden" id="btn-loader"></div>
+                    </button>
+                </div>
+            </div>
+            <div id="error-message" class="error-toast hidden"></div>
+        </section>
+
+        <!-- Loading Skeleton -->
+        <section id="loading-skeleton" class="hidden">
+            <div class="skeleton-header"></div>
+            <div class="dashboard-grid">
+                <div class="skeleton-col">
+                    <div class="skeleton-box large"></div>
+                    <div class="skeleton-box"></div>
+                </div>
+                <div class="skeleton-col">
+                    <div class="skeleton-box"></div>
+                    <div class="skeleton-box"></div>
+                    <div class="skeleton-box"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Dashboard -->
+        <section id="results-dashboard" class="hidden fade-in-up">
+            <div class="dashboard-header">
+                <h2>Analysis Complete</h2>
+                <button id="reset-btn" class="secondary-btn">New Scan</button>
+            </div>
+            
+            <div class="score-banner" id="score-banner">
+                <div class="score-content">
+                    <div class="score-label">Threat Level</div>
+                    <div class="score-circle-wrapper">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle-bg" stroke="rgba(255,255,255,0.1)" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                            <circle id="progress-ring-circle" class="progress-ring__circle" stroke="var(--accent)" stroke-width="8" fill="transparent" r="52" cx="60" cy="60"/>
+                        </svg>
+                        <div class="score-value-wrapper absolute-center">
+                            <span id="risk-score" class="score-number">--</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="score-badge" id="risk-badge">--</div>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="dashboard-col">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <h3>Detailed Explanation</h3>
+                        </div>
+                        <div class="card-body" id="explanation-body">
+                            <!-- Explanation injected here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-col">
+                    <div class="glass-card risk-card">
+                        <div class="card-header">
+                            <h3>Key Risk Indicators</h3>
+                        </div>
+                        <div class="card-body" id="indicators-body">
+                            <!-- Indicators injected here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-col">
+                    <div class="glass-card safe-card">
+                        <div class="card-header">
+                            <h3>Safety Recommendations</h3>
+                        </div>
+                        <div class="card-body" id="safety-body">
+                            <!-- Safety injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ScamScope assesses risk based on known patterns. Always verify via official channels.</p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

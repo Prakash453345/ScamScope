@@ -1,0 +1,5 @@
+These scams impersonate financial institutions or service providers to create concern about account security or compliance. The pattern involves notifications claiming issues such as unusual activity, verification requirements, regulatory updates, or potential account suspension.
+
+Language adopts an authoritative tone using terms related to security, compliance, maintenance, or required action. The message is designed to create anxiety about loss of access or financial consequences if action is not taken promptly.
+
+Tactics include requesting account credentials, identification details, verification codes, or directing users to websites that closely mimic legitimate banking portals. Some versions escalate through calls or SMS. Time pressure is applied subtly through warnings about limited resolution windows or temporary account restrictions.
